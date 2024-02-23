@@ -14,11 +14,10 @@ def main():
 
 @Bot.event
 async def on_ready():
-    qotd = f"QOTD: {Question}"
     await (
         await (
-            await Bot.get_channel(int(environ.get("CHANNEL"))).send(f"{qotd} @everyone")
-        ).create_thread(name=qotd)
+            await Bot.get_channel(int(environ.get("CHANNEL"))).send(f"QOTD: {Question} @everyone")
+        ).create_thread(name=Question)
     ).send(Reply)
     await Bot.close()
 
