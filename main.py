@@ -17,7 +17,7 @@ async def on_ready():
     await (
         await (
             await Bot.get_channel(int(environ.get("CHANNEL"))).send(f"QOTD: {Question} @everyone")
-        ).create_thread(name=Question, auto_archive_duration=None)
+        ).create_thread(name=Question, auto_archive_duration=4320)
     ).send(Reply)
     await Bot.close()
 
