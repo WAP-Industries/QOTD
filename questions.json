@@ -1,0 +1,37 @@
+{
+    "Index": 0,
+    "Questions": [
+        [
+            "When did you start programming?",
+            "early sec 2, dabbled a bit in c++ in sec 1"
+        ],
+        [
+            "What's your most impressive project to date?",
+            "made an rpg engine from scratch using js in sec 3"
+        ],
+        [
+            "Do you use Linux? If yes, why? Otherwise, what OS do you use?",
+            "i use windows"
+        ],
+        [
+            "Do you think using ChatGPT to assist you when writing code prevents you from learning anything?",
+            "yes if youre a noob"
+        ],
+        [
+            "What's your favorite naming convention?",
+            "pascal case kinda stuck with me after c#"
+        ],
+        [
+            "Have you ever made a game?",
+            "made the shokam danmaku franchise lol"
+        ],
+        [
+            "Have you ever used Unity / UnrealEngine?",
+            "personally i think pure code with/without frameworks is better than using game engines"
+        ],
+        [
+            "Which programming languages do you know?",
+            "js, c++, python, lil bit of c#"
+        ]
+    ]
+}
